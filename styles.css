@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Opens Sans", sans-serif;
+}
+h1,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding: 40px 60px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  height: 35px;
+}
+.bttn {
+  padding: 15px 60px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+}
+.build-comm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px 20px;
+}
+.comm-content {
+  width: 45%;
+}
+.comm-content h1 {
+  font-size: 42px;
+  padding-right: 40px;
+  margin: 25px 0px;
+}
+.head-image {
+  width: 55%;
+}
+.comm-content p {
+  padding-right: 40px;
+  margin: 25px 0px;
+  color: hsl(208, 11%, 55%);
+}
+.comm-content button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 15px 70px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 80px 40px;
+}
+.grow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px 50px 65px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+.grow img {
+  max-width: 100%;
+  width: 520px;
+  padding: 15px 80px 15px 60px;
+}
+.grow-content {
+  padding-left: 70px;
+}
+.grow-content h1 {
+  margin: 10px 0px;
+}
+.grow-content p {
+  width: 92%;
+  color: hsl(208, 11%, 55%);
+}
+.convo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px 50px 65px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+.convo img {
+  max-width: 100%;
+  width: 520px;
+  padding: 15px 80px 15px 60px;
+  margin-right: 0px;
+}
+.convo-content {
+  padding-right: 70px;
+}
+.convo-content h1 {
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.convo-content p {
+  padding-top: 20px;
+  width: 92%;
+  color: hsl(208, 11%, 55%);
+}
+.users {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10px 50px 65px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+.users img {
+  max-width: 100%;
+  width: 520px;
+  padding: 15px 80px 15px 60px;
+}
+.users-content {
+  padding-left: 70px;
+}
+.users-content h1 {
+  margin: 10px 0px;
+}
+.users-content p {
+  width: 92%;
+  color: hsl(208, 11%, 55%);
+}
+.get-started {
+  position: relative;
+  max-width: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  padding: 60px 0px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  margin-bottom: -105px;
+}
+.get-started h1 {
+  margin-bottom: 15px;
+}
+.bttn-2 {
+  margin-top: 20px;
+  padding: 24px 105px;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  border: none;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 200px 100px 30px;
+}
+.footer-logo {
+  width: 215.383px;
+  height: 35px;
+}
+.footer-sec {
+  display: flex;
+  margin: 40px 0px;
+}
+.sec-1 {
+  min-width: 40%;
+  width: 40%;
+}
+.add {
+  display: flex;
+  align-items: flex-start;
+}
+.add img {
+  margin-top: 4px;
+  margin-right: 20px;
+}
+li {
+  margin-bottom: 20px;
+  padding-right: 60px;
+  opacity: 0.7;
+}
+.sec-2,
+.sec-3,
+.sec-4 {
+  width: 20%;
+  margin-left: 30px;
+}
+.social {
+  display: flex;
+  padding: 0;
+}
+a {
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.social li {
+  padding: 0 5px;
+  display: inline;
+}
+.copyright {
+  margin-right: 0px;
+  text-align: right;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
